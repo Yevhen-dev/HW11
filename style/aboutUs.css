@@ -1,0 +1,463 @@
+.do-more {
+    color: var(--deep-blue);
+    border: 1px solid var(--deep-blue);
+}
+
+
+
+.header__phone-social__phone div {
+    color: var(--deep-blue);
+}
+
+.header__phone-social {
+    padding: 15px 0;
+    margin: 0 60px;
+    background-color: #FFFFFF;
+    border-bottom: 2px solid rgba(224, 224, 224, 1);
+}
+
+.header__search-personal__personal__list__item__link {
+    color: var(--deep-blue);
+}
+
+.header__search-personal {
+    border: none;
+}
+
+.header__navigation {
+    background-color: var(--deep-blue);
+    font-weight: 400;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.main__carousel {
+    color: var(--deep-blue);
+}
+
+.categories__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.categories__list__item {
+    margin-bottom: 10px;
+}
+
+.categories__list__item:nth-child(1),
+.categories__list__item:nth-child(3),
+.categories__list__item:nth-child(4),
+.categories__list__item:nth-child(6) {
+    width: 25%;
+}
+
+.categories__list__item:nth-child(2),
+.categories__list__item:nth-child(5) {
+    width: 35%;
+    text-align: center;
+}
+
+.categories__list__item:nth-child(2) {
+    width: 33%;
+    text-align: center;
+    border: 1px solid rgba(202, 202, 202, 1);
+    border-radius: 11px;
+    font-size: 3.6rem;
+    font-weight: 700;
+    color: var(--deep-blue);
+}
+
+.categories__list__item:nth-child(2)>div {
+    padding-top: 15%;
+}
+
+.categories__list__item:nth-child(2)>button {
+    font-size: 2.4rem;
+    background-color: var(--dark-orange);
+    color: #FFFFFF;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 11px;
+}
+
+.categories__list__item:nth-child(5) img {
+    width: 93%;
+}
+
+.categories__list__item a{
+    display: block;
+    position: relative;
+}
+
+.categories__list__item img {
+    width: 100%;
+}
+
+.categories__list__item h3 {
+    color: #FFFFFF;
+    text-align: center;
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.release>h2 {
+    color: var(--deep-blue);
+}
+
+.release>h2::after,
+.release>h2::before {
+    border: none;
+}
+
+.release-dif-autor {
+    color: rgba(118, 112, 112, 1);
+    font-size: 1.6rem;
+}
+
+.release__all-new-books {
+    text-align: center;
+}
+
+.release__all-new-books>a {
+   font-size: 1.6rem; 
+}
+
+.release__books {
+    padding: 0 60px 20px 60px;
+    margin: 15px 0;
+}
+
+.release__books__list__item {
+    box-shadow: 1.03px 4.12px 15px 0px rgba(130, 130, 130, 0.18);
+    padding: 15px;
+}
+
+.release__books__list__item__link>img {
+    border: none;
+    box-shadow: none;
+}
+
+.featured {
+    background: none;
+}
+
+.featured__img>img {
+    width: 90%;
+}
+
+.featured__discription__title {
+    font-size: 1.6rem;
+    color: rgba(150, 149, 149, 1);
+    padding: 0;
+}
+
+.featured__discription__book-name__name {
+    font-size: 2.8rem;
+    padding: 0;
+}
+
+.featured__discription__book-name__discription {
+    padding: 20px 0;
+}
+
+.soon {
+    padding: 0 60px 20px 60px;
+}
+
+.soon-wrap {
+    position: relative;
+    width: 100%;
+    height: 20vw;
+    background: url(../images/about-us/coming_soon-books-r.png) 100% 100%/35% 95% no-repeat,
+    url(../images/about-us/coming_soon.png) 0 100%/ 100% 100% no-repeat ;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: bottom right, */
+    /* left right; */
+}
+
+.soon__promotion {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    bottom: 0;
+    width: 50%;
+    color: var(--deep-blue);
+    text-align: center;
+    background-color: rgb(202,206,207);
+}
+
+.soon__promotion__titile {
+    font-size: 3.6rem;
+}
+
+.soon__promotion__discription {
+    font-size: 1.6rem;
+}
+
+.soon__promotion__btn {
+    padding-top: 20px;
+}
+
+.free {
+    background-color: rgba(250, 239, 239, 1);
+}
+
+.free-wrap {
+    padding-right: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.free__img {
+    width: 50%;
+}
+
+.free__img>img {
+    width: 100%;
+}
+
+.free__info {
+    padding-left: 70px;
+    width: 50%;
+}
+
+.free__info__title {
+    font-size: 2.8rem;
+}
+
+.free__info__discription {
+    font-size: 1.6rem;
+}
+
+.sure {
+    padding: 20px 60px 50px 60px;
+    text-align: center;
+    color: var(--deep-blue);
+}
+
+.sure>h2 {
+    font-size: 2.6rem;
+}
+
+.sure>p {
+    font-size: 1.6rem;
+}
+
+.sure__btn {
+    padding-top: 20px   ;
+}
+
+.article {
+    padding: 20px 30px;
+    background-color: rgba(247, 252, 252, 1);
+    border: 1px solid rgba(224, 224, 224, 1)
+}
+
+.article>h4 {
+    color: rgba(122, 122, 122, 1);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.article>h2 {
+    font-size: 3.6rem;
+    color: var(--deep-blue);
+    text-align: center;
+}
+
+.article__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article__list__item {
+    width: 30%;
+}
+
+.article__list__item-link {
+    display: block;
+    color: var(--deep-blue);
+}
+
+.article__list__item-link>img {
+    width: 100%;
+}
+
+.article__list__item-link__date {
+    padding: 10px 0;
+    color: rgba(116, 100, 47, 1);
+}
+
+.article__list__item-link>h3 {
+    font-weight: 400;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(200, 200, 200, 1);
+}
+
+.article__list__item-link__social {
+    text-align: end;
+}
+
+.article__list__item-link__social img {
+    padding: 0 5px;
+}
+
+
+
+
+
+
+@media ( max-width: 1012px ) {
+    .free__info__form form {
+        font-size: 1.4rem;
+    }
+}
+
+
+@media ( max-width: 992px ) {
+    .categories__list__item:nth-child(2) {
+        font-size: 2.8rem;
+    }
+
+    .categories__list__item:nth-child(2)>button  {
+        font-size: 1.8rem;
+    }
+
+    .soon__promotion__titile {
+        font-size: 2.6rem;
+    }
+
+    .soon__promotion__discription {
+        font-size: 1.2rem;
+    }
+
+    .article__list__item-link>h3 {
+        font-size: 1.6rem;
+    }
+}
+
+@media ( max-width: 794px ) {
+
+    .categories__list__item:nth-child(2) {
+        order: 0;
+        width: 45%;
+    }
+
+    .categories__list__item:nth-child(1),
+    .categories__list__item:nth-child(3),
+    .categories__list__item:nth-child(4),
+    .categories__list__item:nth-child(5),
+    .categories__list__item:nth-child(6) {
+        order: 1;
+        width: 45%;
+    }
+
+    .categories__list__item:nth-child(2)>div {
+        padding-top: 20%;
+    }
+
+    .categories__list__item:nth-child(5) img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .categories__list__item a {
+        height: 100%;
+    }
+
+    .free__info__form form {
+        font-size: 1.2rem;
+    }
+
+    
+
+}
+
+@media ( max-width: 768px ) {
+    .soon-wrap {
+        background: none;
+    }
+
+    .soon__promotion {
+        background-color: transparent;
+    }
+
+    .free-wrap {
+        padding: 10px;
+    }
+
+    .free__img {
+        display: none;
+    }
+
+    .free__info {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .free__info__form form {
+        justify-content: center;
+    }
+
+    .article__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .article__list__item {
+        width: 70%;
+        padding-bottom: 15px;
+    }
+
+}
+
+@media ( max-width: 576px ) {
+    .categories__list {
+        justify-content: center;
+    }
+
+    .categories__list__item:nth-child(2) {
+        padding: 75px 0;
+    }
+
+    .categories__list__item:nth-child(1),
+    .categories__list__item:nth-child(2),
+    .categories__list__item:nth-child(3),
+    .categories__list__item:nth-child(4),
+    .categories__list__item:nth-child(5),
+    .categories__list__item:nth-child(6) {
+        width: 60%;
+    }
+
+    .categories__list__item:nth-child(2)>div {
+        padding: 0;
+    }
+
+    .release__books__list__item {
+        width: 60%;
+    }
+
+    .soon {
+        padding: 20px 10px 50px 10px;
+    }
+
+    .soon__promotion {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+}

@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+<body>
+
+    <header>
+        <div class="header">
+            <div class="header__phone-social">
+                <div class="header__phone-social__phone">
+                    <a href="tel:+918374902234">
+                        <img src="./images/index/phone.svg" alt="phone icon">
+                        <div>+91 8374902234</div>
+                    </a>
+                </div> 
+                <div class="header__phone-social__social">
+                    <ul class="header__phone-social__social__list">
+                        <li class="header__phone-social__social__list__item">
+                            <a class="header__phone-social__social__list__item-link" href="https://facebook.com/" target="_blank">
+                                <img src="./images/index/fb.svg" alt="Facebook icon">
+                            </a>
+                        </li>
+                        <li class="header__phone-social__social__list__item">
+                            <a class="header__phone-social__social__list__item-link" href="https://www.instagram.com/" target="_blank">
+                                <img src="./images/index/insta.svg" alt="Instagram icon">
+                            </a>
+                        </li>
+                        <li class="header__phone-social__social__list__item">
+                            <a class="header__phone-social__social__list__item-link" href="https://linkedin.com/" target="_blank">
+                                <img src="./images/index/lin.svg" alt="Linkedin icon">
+                            </a>
+                        </li>
+                        <li class="header__phone-social__social__list__item">
+                            <a class="header__phone-social__social__list__item-link" href="https://twitter.com" target="_blank">
+                                <img src="./images/index/twit.svg" alt="twitter icon">
+                            </a>
+                        </li>
+                        <li class="header__phone-social__social__list__item">
+                            <a class="header__phone-social__social__list__item-link" href="https://web.telegram.org/" target="_blank">
+                                <img src="./images/index/teleg.svg" alt="telegram icon">
+                            </a>
+                        </li>
+                    </ul>
+                </div>   
+            </div>
+
+            <div class="wrap__header-search">
+                <div class="header__search-personal">
+                    <div class="header__search-personal__logo">
+                        <a href="./">
+                            <img src="./images/index/footer_logo.svg" alt="logo">
+                        </a>
+                    </div>
+    
+                    <div class="header__search-personal__search">
+                        <form>
+                            <div class="header__search-personal__search__input">
+                                <input type="text" placeholder="Search books">
+                                <img src="./images/index/search_icon.svg" alt="search icon">
+                            </div>
+                        </form>
+                    </div>
+    
+                    <div class="header__search-personal__personal">
+                        <ul class="header__search-personal__personal__list">
+                            <li class="header__search-personal__personal__list__item">
+                                <a class="header__search-personal__personal__list__item__link" href="#">
+                                    <img src="./images/index/acoount_icon.svg" alt="account icon">
+                                    Account
+                                </a>
+                            </li>
+                            <li class="header__search-personal__personal__list__item">
+                                <a class="header__search-personal__personal__list__item__link" href="#">
+                                    <img src="./images/index/cart_icon.svg" alt="cart icon">
+                                    Cart:(<span>0</span>$)
+                                </a>
+                            </li>
+                            <li class="header__search-personal__personal__list__item">
+                                <a class="header__search-personal__personal__list__item__link" href="#">
+                                    <img src="./images/index/wishlist_icon.svg" alt="wishlist icon">
+                                    Wishlist
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header__navigation">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <div class="container-fluid">
+
+                        <div class="header__navigation__logo-small">
+                            <a class="header__navigation-small__link" href="./">
+                                <img src="./images/index/footer_logo.svg" alt="logo">
+                            </a>
+                        </div>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse justify-content-center navbar-collapse" id="navbarTogglerDemo01">
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+                                <li class="nav-item header__navigation__list__item">
+                                    <a class="nav-link header__navigation__list__item__link active" href="./">Home</a>
+                                </li>
+                                <li class="nav-item header__navigation__list__item">
+                                    <a class="nav-link header__navigation__list__item__link" href="./pages/aboutUs.html">About us</a>
+                                </li>
+                                <li class="nav-item header__navigation__list__item">
+                                    <a class="nav-link header__navigation__list__item__link" href="./pages/books.html">Books</a>
+                                </li>
+                                <li class="nav-item header__navigation__list__item">
+                                    <a class="nav-link header__navigation__list__item__link" href="./pages/newRelease.html">New release</a>
+                                </li>
+                                <li class="nav-item header__navigation__list__item">
+                                    <a class="nav-link header__navigation__list__item__link" href="./">Contact us</a>
+                                </li>
+                                <li class="nav-item header__navigation__list__item">
+                                    <a class="nav-link header__navigation__list__item__link" href="#blog">Blog</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                  </nav>
+            </div>  
+        </div>
+    </header>
+
+    <main>
+        <div class="main">
+
+            <div class="main__carousel">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="main__carousel__item carousel-item active">
+                            <div class="main__carousel__item__wrap d-flex">
+                                <div class="main__carousel__item__wrap__description">
+                                    <h2>Ipsum dolor si</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero ipsum enim pharetra hac. Urna commodo, lacus ut magna velit eleifend. Amet, quis urna, a eu.</p>
+                                    <a class="do-more" href="#">Read more &#8594;</a>
+                                </div>
+                                <div class="main__carousel__item__wrap__img">
+                                    <img src="./images/index/slider_books.png" class="d-block w-100" alt="books">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__carousel__item carousel-item">
+                            <div class="main__carousel__item__wrap d-flex">
+                                <div class="main__carousel__item__wrap__description">
+                                    <h2>Ipsum dolor si</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero ipsum enim pharetra hac. Urna commodo, lacus ut magna velit eleifend. Amet, quis urna, a eu.</p>
+                                    <a class="do-more" href="#">Read more &#8594;</a>
+                                </div>
+                                <div class="main__carousel__item__wrap__img">
+                                    <img src="./images/newRelease/slider-second.png" class="d-block w-100" alt="anna`s friends book">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__carousel__item carousel-item">
+                            <div class="main__carousel__item__wrap d-flex">
+                                <div class="main__carousel__item__wrap__description">
+                                    <h2>Ipsum dolor si</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero ipsum enim pharetra hac. Urna commodo, lacus ut magna velit eleifend. Amet, quis urna, a eu.</p>
+                                    <a class="do-more" href="#">Read more &#8594;</a>
+                                </div>
+                                <div class="main__carousel__item__wrap__img">
+                                    <img src="./images/index/books-off-slider.png" class="d-block w-100" alt="books on sale">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="categories">
+
+                <div class="categories__header">
+                    <div class="categories__header__title-arrows">
+                        <div class="orange-categorie">Categories</div>
+                        <h2 class="categories__header__title-arrows__title">Explore our Top Categories</h2>
+                        <div class="categories__header__title-arrows__arrows">
+                            <button>&#8592;</button>
+                            <button>&#8594;</button>
+                        </div>
+                    </div>
+                    <div class="categories__header__descriptoin">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero ipsum enim pharetra hac. Urna commodo, lacus ut magna velit eleifend. Amet, quis urna, a eu.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero ipsum ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero ipsum..</p>
+                    </div>
+                </div>
+                <div class="categories__main">
+                    <ul class="categories__main__cards">
+                        <li class="categories__main__cards__item">
+                            <a class="categories__main__cards__item-link" href="#">
+                                <img src="./images/index/higher-education.png" alt="Higher Education">
+                                <h3>Higher Education</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero ipsum enim pharetra hac. Urna commodo, lacus ut mat,</p>
+                            </a>
+                        </li>
+                        <li class="categories__main__cards__item">
+                            <a class="categories__main__cards__item-link" href="#">
+                                <img src="./images/index/management-books.png" alt="Management Books">
+                                <h3>Management Books</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero ipsum enim pharetra hac. Urna commodo, lacus ut mat,</p>
+                            </a>
+                        </li>
+                        <li class="categories__main__cards__item">
+                            <a class="categories__main__cards__item-link" href="#">
+                                <img src="./images/index/engineering-books.png" alt="Engineering Books">
+                                <h3>Engineering Books</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero ipsum enim pharetra hac. Urna commodo, lacus ut mat,</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="categories__btn">
+                    <a class="do-more" href="#">View more &#8594;</a>
+                </div>
+
+            </div>
+
+            <div class="ebook" id="ebook">
+                <div class="ebook__header">
+                    <div class="ebook__header__title-form">
+                        <div class="orange-categorie">ebook</div>
+                        <h2 class="ebook__header__title-form__title">Access, Read, Practice & Engage
+                            with Digital Content (eBook) </h2>
+                    </div>
+                    <div class="ebook__header__descriptoin">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero ipsum enim pharetra hac. Urna commodo, lacus ut magna velit eleifend. Amet, quis urna, a eu.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="ebook__header__form">
+                        <form>
+                            <input type="text" placeholder="Enter your email address">
+                            <button type="button">Login</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="ebook__img">
+                    <img src="./images/index/ebook.png" alt="girls with book">
+                </div>
+            </div>
+
+            <div class="release" id="release">
+                <div>Some quality items</div>
+                <h2>New Release Books</h2>
+                <div class="release__books">
+                    <ul class="release__books__list">
+                        <li class="release__books__list__item">
+                            <a class="release__books__list__item__link" href="#">
+                                <img src="./images/index/simple-way.png" alt="Simple way of piece life book">
+                                <h3>Simple way of piece life</h3>
+                                <div>Armor Ramsey</div>
+                                <div>$ 40.00</div>
+                            </a>
+                        </li>
+
+                        <li class="release__books__list__item">
+                            <a class="release__books__list__item__link" href="#">
+                                <img src="./images/index/great-travel.png" alt="Great travel at desert book">
+                                <h3>Great travel at desert</h3>
+                                <div>Sanchit Howdy</div>
+                                <div>$ 38.00</div>
+                            </a>
+                        </li>
+
+                        <li class="release__books__list__item">
+                            <a class="release__books__list__item__link" href="#">
+                                <img src="./images/index/lady-beauty.png" alt="The lady beauty Scarlett book">
+                                <h3>The lady beauty Scarlett</h3>
+                                <div>Arthur Doyle</div>
+                                <div>$ 45.00</div>
+                            </a>
+                        </li>
+
+                        <li class="release__books__list__item">
+                            <a class="release__books__list__item__link" href="#">
+                                <img src="./images/index/once-upon.png" alt="Once upon a time book">
+                                <h3>Once upon a time</h3>
+                                <div>Klien Marry</div>
+                                <div>$ 35.00</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="release__all-new-books">
+                    <a href="#">View all products &#8594;</a>
+                </div>
+            </div>
+
+            <div class="featured">
+                <div class="featured-wrap">
+                    <div class="featured__img">
+                        <img src="./images/index/birds-happy.png" alt="Birds gonna be happy book">
+                    </div>
+    
+                    <div class="featured__discription">
+                        <h2 class="featured__discription__title">Featured book</h2>
+                        <div class="featured__discription__book-name">
+                            <div class="featured__discription__book-name__autor">By Timbur Hood</div>
+                            <div class="featured__discription__book-name__name">Birds gonna be happy</div>
+                            <div class="featured__discription__book-name__discription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero ipsum enim pharetra hac.</div>
+                            <div class="featured__discription__book-name__price">$ 45.00</div>
+                        </div>
+                        <div class="featured__discription__btn">
+                            <a class="do-more" href="#">View more &#8594;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sale">
+                <a href="#" class="sale-wrap">
+                    <div class="sale__discription">
+                        <h2 class="sale__discription__title">All books are 50% off now!</h2>
+                        <h2 class="sale__discription__title">Don't miss such a deal!</h2>
+                        <div class="sale__discription__text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero ipsum enim pharetra hac.</p>
+                        </div>
+                        <div class="sale__discription__timer">
+                            <div class="sale__discription__timer__days">
+                                <div>768</div>
+                                <div>Days</div>
+                            </div>
+                            <div class="sale__discription__timer__hours">
+                                <div>1</div>
+                                <div>Hour</div>
+                            </div>
+                            <div class="sale__discription__timer__minutes">
+                                <div>12</div>
+                                <div>Mint</div>
+                            </div>
+                            <div class="sale__discription__timer__seconds">
+                                <div>19</div>
+                                <div>Sec</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sale__img">
+                        <img src="./images/index/books-off.png" alt="books">
+                    </div>
+                </a>
+            </div>
+
+            <div class="subscribe">
+                <div class="subscribe-wrap">
+                    <div class="subscribe__title">
+                        <h2>Subscribe to our newsletter</h2>
+                    </div>
+                    <div class="subscribe__text-email">
+                        <p class="subscribe__text-email__text">Sed eu feugiat amet, libero ipsum enim pharetra hac dolor sit amet, consectetur. Elit adipiscing enim pharetra hac.</p>
+                        <form class="subscribe__text-email__email">
+                            
+                                <input type="text" placeholder="Enter your email addresss here">
+                                <button><span>Send</span> <img src="./images/index/send_icon.svg" alt="send icon"></button>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog" id="blog">
+                <h2>Read our many blogs</h2>
+                <ul class="blog__list">
+                    <li class="blog__list__item">
+                        <a class="blog__list__item__link" href="#">
+                            <img src="./images/index/top-autor.png" alt="guy with cup">
+                            <div class="blog__list__item__link-wrap">
+                                <h3 class="blog__list__item__link__title">Learn about this week's top author</h3>
+                                <p class="blog__list__item__link__text">Jump start your book reading by quickly check through the popular book categories...</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="blog__list__item">
+                        <a class="blog__list__item__link" href="#">
+                            <img src="./images/index/celebrate-readers.png" alt="people drink juice">
+                            <div class="blog__list__item__link-wrap">
+                                <h3 class="blog__list__item__link__title">Why we celebrate readers</h3>
+                                <p class="blog__list__item__link__text">Jump start your book reading by quickly check through the popular book categories...</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="blog__list__item">
+                        <a class="blog__list__item__link" href="#">
+                            <img src="./images/index/kidread.jpg" alt="kid laught">
+                            <div class="blog__list__item__link-wrap">
+                                <h3 class="blog__list__item__link__title">Toddlers can also read</h3>
+                                <p class="blog__list__item__link__text">Jump start your book reading by quickly check through the popular book categories...</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="blog__list__item">
+                        <a class="blog__list__item__link" href="#">
+                            <img src="./images/index/started-game.png" alt="open book">
+                            <div class="blog__list__item__link-wrap">
+                                <h3 class="blog__list__item__link__title">Get started on your game</h3>
+                                <p class="blog__list__item__link__text">Jump start your book reading by quickly check through the popular book categories...</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-wrap">
+                <div class="footer__logo-social">
+                    <div class="footer__logo-social__logo">
+                        <a class="footer__logo-social__logo-link" href="./">
+                            <img src="./images/index/footer_logo.svg" alt="logo">
+                        </a>
+                    </div>
+                    <div class="footer__logo-social__text">
+                        <p>Nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                    <div class="footer__logo-social__social">
+                        <ul class="footer__logo-social__social__list">
+                            <li class="footer__logo-social__social__list__item">
+                                <a class="footer__logo-social__social__list__item-link" href="https://en-gb.facebook.com/" target="_blank">
+                                    <img src="./images/index/footer_fb.svg" alt="Facebook icon">
+                                </a>
+                            </li>
+                            <li class="footer__logo-social__social__list__item">
+                                <a class="footer__logo-social__social__list__item-link" href="https://uk.linkedin.com/" target="_blank">
+                                    <img src="./images/index/footer_link.svg" alt="Linkedin icon">
+                                </a>
+                            </li>
+                            <li class="footer__logo-social__social__list__item">
+                                <a class="footer__logo-social__social__list__item-link" href="https://twitter.com" target="_blank">
+                                    <img src="./images/index/footer_twit.svg" alt="twitter icon">
+                                </a>
+                            </li>
+                            <li class="footer__logo-social__social__list__item">
+                                <a class="footer__logo-social__social__list__item-link" href="https://www.youtube.com/" target="_blank">
+                                    <img src="./images/index/footer_yt.svg" alt="Youtube icon">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="footer__nav">
+                    <h3>Company</h3>
+                    <nav>
+                        <ul class="footer__nav__list">
+                            <li class="footer__nav__list__item">
+                                <a class="footer__nav__list__item-link" href="./">home</a>
+                            </li>
+                            <li class="footer__nav__list__item">
+                                <a class="footer__nav__list__item-link" href="./pages/aboutUs.html">About us</a>
+                            </li>
+                            <li class="footer__nav__list__item">
+                                <a class="footer__nav__list__item-link" href="./pages/books.html">Books</a>
+                            </li>
+                            <li class="footer__nav__list__item">
+                                <a class="footer__nav__list__item-link" href="#ebook">Ebooks</a>
+                            </li>
+                            <li class="footer__nav__list__item">
+                                <a class="footer__nav__list__item-link" href="./pages/newRelease.html">New release</a>
+                            </li>
+                            <li class="footer__nav__list__item">
+                                <a class="footer__nav__list__item-link" href="#">Contact us</a>
+                            </li>
+                            <li class="footer__nav__list__item">
+                                <a class="footer__nav__list__item-link" href="#blog">Blog</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__latest-news">
+                    <h3>Latest news</h3>
+                    <ul class="footer__latest-news__list">
+                        <li class="footer__latest-news__list__item">
+                            <a class="footer__latest-news__list__item-link" href="#">
+                                <img src="./images/index/footer_news_top.png" alt="couple use laptop">
+                                <div class="footer__latest-news__list__item-link__discription">
+                                    <h4>Nostrud exercitation</h4>
+                                    <p>Nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    <div>15 April 2022</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="footer__latest-news__list__item">
+                            <a class="footer__latest-news__list__item-link" href="#">
+                                <img src="./images/index/footer_news_bottom.png" alt="girls near board">
+                                <div class="footer__latest-news__list__item-link__discription">
+                                    <h4>Nostrud exercitation</h4>
+                                    <p>Nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    <div>15 April 2022</div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__copyright-terms">
+                <div class="footer__copyright-terms__copyright">
+                    &#169; 2022 Arihant. All Rights Reserved.
+                </div>
+                <div class="footer__copyright-terms__privacy-term">
+                    <div class="footer__copyright-terms__privacy-term__privacy">
+                        <a href="#">Privacy</a>
+                    </div>
+                    <div class="footer__copyright-terms__privacy-term__term">
+                        <a href="#">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script>
+        let seconds = document.querySelector( ".sale__discription__timer__seconds" );
+        let minutes = document.querySelector( ".sale__discription__timer__minutes" );
+        let hours = document.querySelector( ".sale__discription__timer__hours" );
+        let days = document.querySelector( ".sale__discription__timer__days" );
+
+        const timer = setInterval( () => {
+            seconds.children[0].innerHTML--;
+            if( seconds.children[0].innerHTML == 0 && minutes.children[0].innerHTML != 0 ) {
+                minutes.children[0].innerHTML--;
+                seconds.children[0].innerHTML = 59;
+
+            } if ( seconds.children[0].innerHTML == 0 && minutes.children[0].innerHTML == 0 && hours.children[0].innerHTML != 0 ) {
+                hours.children[0].innerHTML--;
+                minutes.children[0].innerHTML = 59;
+                seconds.children[0].innerHTML = 59;
+            } if ( seconds.children[0].innerHTML == 0 && minutes.children[0].innerHTML == 0 && hours.children[0].innerHTML == 0 && days.children[0].innerHTML != 0 ) {
+                days.children[0].innerHTML--;
+                hours.children[0].innerHTML = 23;
+                minutes.children[0].innerHTML = 59;
+                seconds.children[0].innerHTML = 59;
+            } if ( seconds.children[0].innerHTML == 0 && minutes.children[0].innerHTML == 0 && hours.children[0].innerHTML == 0 && days.children[0].innerHTML == 0 ) {
+                clearInterval( timer );
+            }
+        }, 1000 )
+    </script>
+</body>
+</html>
